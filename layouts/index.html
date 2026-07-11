@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Site.Title }} — Pure-Go client for the official Hacker News Firebase API.</title>
+<meta name="description" content="Pure-Go client for the official Hacker News Firebase API.">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+<link rel="stylesheet" href="{{ "css/brand.css" | relURL }}">
+<script src="{{ "js/theme.js" | relURL }}"></script>
+</head><body>
+<section class="hero">
+  <button id="themebtn" class="theme" type="button">Theme: System</button>
+  <img src="{{ "img/go-hackernews-white.png" | relURL }}" alt="go-hackernews">
+  <h1>go-hackernews</h1>
+  <p>Pure-Go client for the official Hacker News Firebase API.</p>
+  <div class="btns">
+    <a class="btn btn-solid" href="https://go-hackernews.github.io/docs/">Documentation</a>
+    <a class="btn btn-ghost" href="https://github.com/go-hackernews">GitHub</a>
+  </div>
+</section>
+<div class="wrap">
+  <div class="panel">
+    <h2>What is go-hackernews?</h2>
+    <p>go-hackernews is a pure-Go, dependency-free client for the official Hacker News Firebase API (`hacker-news.firebaseio.com/v0/`). It reads items (stories, comments, jobs, polls), users and the live story lists. CGO_ENABLED=0 builds static binaries everywhere, tests are network-free, and it cross-compiles to every 64-bit Go target.</p>
+  </div>
+  <h2 class="section">Packages</h2>
+  <p class="sub">{{ len site.Data.pkgs.packages }} module(s) — generated from the org's repos.</p>
+  <div class="grid">
+    <div class="card"><div class="chip">HA</div><div class="nm">hackernews</div><div class="ds">Pure-Go client for the official Hacker News Firebase API. CGO=0, zero third-party deps.</div><div class="lk"><a href="https://github.com/go-hackernews/hackernews">GitHub</a> · <a href="https://pkg.go.dev/github.com/go-hackernews/hackernews">pkg.go.dev</a></div></div>
+  </div>
+</div>
+<footer>Built with Hugo · Pure Go, CGO=0 · Branding from <a href="https://github.com/go-hackernews/brand">go-hackernews/brand</a></footer>
+</body></html>

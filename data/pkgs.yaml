@@ -1,0 +1,2 @@
+packages:
+  - { name: "hackernews", desc: "Pure-Go client for the official Hacker News Firebase API. CGO=0, zero third-party deps.", url: "https://github.com/go-hackernews/hackernews", doc: "https://pkg.go.dev/github.com/go-hackernews/hackernews" }

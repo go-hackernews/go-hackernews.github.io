@@ -1,0 +1,4 @@
+baseURL = "https://go-hackernews.github.io/"
+languageCode = "en-us"
+title = "go-hackernews"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
