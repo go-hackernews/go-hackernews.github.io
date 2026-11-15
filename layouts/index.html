@@ -38,7 +38,7 @@
   <div class="hero"><div class="wrap">
     <div>
       <h1 class="head">go-hackernews</h1>
-      <p class="sub">Pure-Go client for the official Hacker News Firebase API.</p>
+      <p class="sub">{{ if partial "mantra-on.html" . }}Go{{ else }}Pure-Go{{ end }} client for the official Hacker News Firebase API.</p>
       {{/* [[params.cta]] in hugo.toml: the kit renders the row */}}
       {{ partial "cta.html" . }}
     </div>
